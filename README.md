@@ -1,68 +1,203 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo, twitter_handle, email
+-->
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+<!--[![MIT License][license-shield]][license-url]-->
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/dormalk/Robofriend-App">
+    <img src="https://i.imgur.com/kbBgpgk.png" alt="logo" width="150" height="150"/>
+  </a>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <h3 align="center">Recipes Book</h3>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  <p align="center">
+    Manage your recipes in one place
+    <br />
+    <a href="https://github.com/dormalk/Robofriend-App"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://ng-recipe-book-deployment-dor.s3-website.eu-west-2.amazonaws.com/" target="_blank">Open Recipe Book</a>
+    ·
+    <a href="https://github.com/dormalk/Robofriend-App/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/dormalk/Robofriend-App/issues">Request Feature</a>
+  </p>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+<!--* [Contributing](#contributing)
+* [Roadmap](#roadmap)
+* [License](#license)-->
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![product-screenshot][product-screenshot1]
+![product-screenshot][product-screenshot2]
+![product-screenshot][product-screenshot3]
+![product-screenshot][product-screenshot4]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Create your own recipe book and create uniq sopping list for the meals you wants to cook.
+With this recipe book you no longer neet phisical book that fades and corrupts.
+You can manage this book by smartphone or by desk computer in easily.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Built With
 
-### Analyzing the Bundle Size
+  * [Angular 8](https://angular.io/)
+  * [Firebase](https://firebase.google.com/)
+  * [Bootstrap](https://getbootstrap.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Advanced Configuration
+Follow the next indtuction to run this project on local enviroment.
+### Prerequisites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+* Angular
+```sh
+npm install -g @angular/cli
+```
 
-### Deployment
+### Installation
+ 
+1. Clone the repo
+```sh
+git clone https://github.com/dormalk/Robofriend-App
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Run app from CMD
+```sh
+ng serve
+```
+4. Follow the instruction on the opened web page
+```sh
+http://localhost:4200
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- USAGE EXAMPLES -->
+## Usage
+  - Recipes View page - View all recipes in your account
+  - CRUD Reacipes 
+  - Fetch ingredients to distinct list
+  - Save must modified list on data base
+  - <a href="http://ng-recipe-book-deployment-dor.s3-website.eu-west-2.amazonaws.com/" target="_blank">Link to Recipes Book</a>
+<!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<!-- ROADMAP -->
+<!--## Roadmap
+
+See the [open issues](https://github.com/dormalk/Robofriend-App/issues) for a list of proposed features (and known issues).
+
+
+
+CONTRIBUTING
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+-->
+
+<!-- LICENSE
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+-->
+
+<!-- CONTACT -->
+## Contact
+
+Dor Malka - [dormalk@gmail.com](mailto:dormalk@gmail.com)
+
+Project Link: [https://github.com/dormalk/Robofriend-App](https://github.com/dormalk/Robofriend-App)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+  * [Angular 8](https://angular.io/)
+  * [Bootstrap](https://getbootstrap.com/)
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/dormalk/Robofriend-App.svg?style=flat-square
+[contributors-url]: https://github.com/dormalk/Robofriend-App/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dormalk/Robofriend-App.svg?style=flat-square
+[forks-url]: https://github.com/dormalk/Robofriend-App/network/members
+[stars-shield]: https://img.shields.io/github/stars/dormalk/Robofriend-App.svg?style=flat-square
+[stars-url]: https://github.com/dormalk/Robofriend-App/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dormalk/Robofriend-App.svg?style=flat-square
+[issues-url]: https://github.com/dormalk/Robofriend-App/issues
+[license-shield]: https://img.shields.io/github/license/dormalk/Robofriend-App.svg?style=flat-square
+[license-url]: https://github.com/dormalk/Robofriend-App/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/dor-malka-444b94116/
+[product-screenshot1]: https://i.imgur.com/UjkiS7y.png
+[product-screenshot2]: https://i.imgur.com/XgN96CU.png
+[product-screenshot3]: https://i.imgur.com/yd35paM.png
+[product-screenshot4]: https://i.imgur.com/YNCKyQC.png
+
+
