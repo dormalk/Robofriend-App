@@ -35,18 +35,18 @@
 <br />
 <p align="center">
   <a href="https://github.com/dormalk/Robofriend-App">
-    <img src="https://i.imgur.com/kbBgpgk.png" alt="logo" width="150" height="150"/>
+    <img src="https://robohash.org/2" alt="logo" width="150" height="150"/>
   </a>
 
-  <h3 align="center">Recipes Book</h3>
+  <h3 align="center">RoboFriend</h3>
 
   <p align="center">
-    Manage your recipes in one place
+    Fanny way to keep your contact
     <br />
     <a href="https://github.com/dormalk/Robofriend-App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://ng-recipe-book-deployment-dor.s3-website.eu-west-2.amazonaws.com/" target="_blank">Open Recipe Book</a>
+    <a href="https://dormalk.github.io/Robofriend-App/" target="_blank">Open RoboFriend</a>
     ·
     <a href="https://github.com/dormalk/Robofriend-App/issues">Report Bug</a>
     ·
@@ -78,19 +78,14 @@
 
 ![product-screenshot][product-screenshot1]
 ![product-screenshot][product-screenshot2]
-![product-screenshot][product-screenshot3]
-![product-screenshot][product-screenshot4]
 
 
-Create your own recipe book and create uniq sopping list for the meals you wants to cook.
-With this recipe book you no longer neet phisical book that fades and corrupts.
-You can manage this book by smartphone or by desk computer in easily.
+Funny way to keep your contact - for every contact there is a uniq robot avater.
 
 ### Built With
 
-  * [Angular 8](https://angular.io/)
-  * [Firebase](https://firebase.google.com/)
-  * [Bootstrap](https://getbootstrap.com/)
+  * [React](https://reactjs.org/)
+  * [tachyons](https://tachyons.io/)
 
 
 
@@ -100,9 +95,9 @@ You can manage this book by smartphone or by desk computer in easily.
 Follow the next indtuction to run this project on local enviroment.
 ### Prerequisites
 
-* Angular
+* react
 ```sh
-npm install -g @angular/cli
+npm install create-react-app
 ```
 
 ### Installation
@@ -117,20 +112,18 @@ npm install
 ```
 3. Run app from CMD
 ```sh
-ng serve
+npm start
 ```
 4. Follow the instruction on the opened web page
 ```sh
-http://localhost:4200
+http://localhost:3000
 ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-  - Recipes View page - View all recipes in your account
-  - CRUD Reacipes 
-  - Fetch ingredients to distinct list
-  - Save must modified list on data base
-  - <a href="http://ng-recipe-book-deployment-dor.s3-website.eu-west-2.amazonaws.com/" target="_blank">Link to Recipes Book</a>
+  - View contacts linked to REST
+  - Search for your contact 
+  - <a href="https://dormalk.github.io/Robofriend-App/" target="_blank">Link to RoboFriend</a>
 <!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
 
@@ -174,8 +167,10 @@ Project Link: [https://github.com/dormalk/Robofriend-App](https://github.com/dor
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-  * [Angular 8](https://angular.io/)
-  * [Bootstrap](https://getbootstrap.com/)
+  * [React](https://reactjs.org/)
+  * [tachyons](https://tachyons.io/)
+  * [JSONplaceholder](https://jsonplaceholder.typicode.com/)
+  * [RoboHASH](https://robohash.org/)
 
 
 
@@ -195,9 +190,7 @@ Project Link: [https://github.com/dormalk/Robofriend-App](https://github.com/dor
 [license-url]: https://github.com/dormalk/Robofriend-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dor-malka-444b94116/
-[product-screenshot1]: https://i.imgur.com/UjkiS7y.png
-[product-screenshot2]: https://i.imgur.com/XgN96CU.png
-[product-screenshot3]: https://i.imgur.com/yd35paM.png
-[product-screenshot4]: https://i.imgur.com/YNCKyQC.png
+[product-screenshot1]: https://i.imgur.com/uhtqblj.png
+[product-screenshot2]: https://i.imgur.com/wqZd31m.png
 
 
